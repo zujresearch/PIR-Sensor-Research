@@ -70,9 +70,9 @@ hold on, grid on
 plot(t, Phi_t.Unmod,'--r')
 plot(t, -Phi_t.Unmod,'--r')
 
-figure
-yyaxis left
-plot(t,SnsrOutput.PureSig)
-grid on, hold on
-yyaxis right
-plot(t,SnsrOutput.NoisySig)
+% figure
+% yyaxis left
+% plot(t,SnsrOutput.PureSig)
+% grid on, hold on
+% yyaxis right
+% plot(t,SnsrOutput.NoisySig)
